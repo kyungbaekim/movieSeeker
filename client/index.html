@@ -125,7 +125,7 @@
 	              </ul>
 								<!-- End of Sign up and Log in section -->
 								<ul class='nav navbar-nav navbar-right' ng-if='sessionUser.loggedIn'>
-									<li class='active'><span class='welcome_message'>Welcome {{sessionUser.name}}!</span></a></li>
+									<li class='active' id='active'><span class='welcome_message'>Welcome {{sessionUser.name}}!</span></a></li>
 									<form class='navbar-form navbar-left'>
 	              		<button class='btn btn-default' id='log_out' ng-click='logout()'>Log out</button>
 									</form>
